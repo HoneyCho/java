@@ -1,4 +1,4 @@
-package AbstractShape;
+	package AbstractShape;
 
 public class rectangle extends shape{
 
@@ -22,6 +22,12 @@ public class rectangle extends shape{
 		this.width=width;
 		this.height=height;
 	}
+	public double getWidth() {
+		return width;
+	}
+	public double getHeight() {
+		return height;
+	}
 	public void setWidth(double width) {
 		this.width = width;
 	}
@@ -38,9 +44,10 @@ public class rectangle extends shape{
 	double getPerimeter() {
 		return (2*width)+(2*height);
 	}
-	public void showInfo() {
-		System.out.println("Rectangle Info:");
-		System.out.println("Widht: "+ width+"\nArea: "+getArea()+"\nPerimeter: "+getPerimeter()+"\nColor: "+color+"\nFilledColor: "+filledcolor+"\n");
+				
+	public String toString() {
+		String str= "Rectangle Info: "+"\nWidth: "+getWidth()+"\nHeight: " + getHeight()+ "\nArea: "+getArea() +"\nPerimeter: "+getPerimeter()+"\nColor: "+color+"\nFilledColor: "+filledcolor+"\n\n";
+	return str;
 	}
 
 }

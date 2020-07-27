@@ -1,4 +1,4 @@
-package test;
+package miniprojects;
 import java.util.Scanner;
 
 public class employee {

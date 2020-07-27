@@ -1,4 +1,4 @@
-package test;
+package miniprojects;
 public class test2 {
 	
 int puppyAge;

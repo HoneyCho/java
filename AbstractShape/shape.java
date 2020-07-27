@@ -2,9 +2,8 @@ package AbstractShape;
 
 public abstract class shape {
 
-	
-		String color="yellow";
-		Boolean filledcolor=true;
+	String color="yellow";
+	Boolean filledcolor=true;
 	public shape(){
 		
 	}
@@ -28,8 +27,16 @@ public abstract class shape {
 	{
 		this.filledcolor = filledcolor;
 	}
+	
 	abstract double getArea();
 	abstract double getPerimeter();
+	
+	public String toString() {
+		String str="color : " + getColor()+ "\n Is filled color : " + 
+	isFilled();
+		return str;
+		
+	}
 	
 	}
 

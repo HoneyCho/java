@@ -1,4 +1,4 @@
-package test;
+package miniprojects;
 
 public interface Animal {
 	public void eat();

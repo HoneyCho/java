@@ -1,9 +1,9 @@
 package AbstractShape;
 
 public class circle extends shape{
-double radius=1.0;
-public circle() {
-	super();
+ double radius=1.0;
+ public circle() {
+super();
 }
 public  circle (double radius)
 {
@@ -24,12 +24,12 @@ double getPerimeter() {
 	return radius*3.142*2;
 }
 
-public String getColor() {
-	return color;
-}
-public void showInfo() {
-	System.out.println("Circle Info:");
-	System.out.println("Radius: "+radius+"\nArea: "+getArea()+"\nPerimeter: "+getPerimeter()+"\nColor: "+ getColor()+"\nFilledColor: "+filledcolor+"\n");
+//public String getColor() {
+//	return color;
+//}
+public String toString() {
+	String str="Circle Info:"+"\nRadius: "+radius+"\nArea: "+getArea()+"\nPerimeter: "+getPerimeter()+"\nColor: "+ getColor()+"\nFilledColor: "+filledcolor+"\n\n";
+	return str;
 }
 
 	

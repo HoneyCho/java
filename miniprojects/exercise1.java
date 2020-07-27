@@ -1,5 +1,5 @@
 
-package test;
+package miniprojects;
 import java.util.*;  
 public class exercise1 {
 

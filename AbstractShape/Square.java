@@ -28,9 +28,9 @@ public class Square extends rectangle{
 	}
 	
 	
-	public void showInfo() {
-		System.out.println("Square Info:");
-		System.out.println("Side: "+side+"\nArea: "+getArea()+"\nPerimeter: "+getPerimeter()+"\nColor: "+color+"\nFilled: "+filledcolor+"\n");
+	public String toString() {
+		String str="Square Info:"+ "\nSide: "+side+"\nArea: "+getArea()+"\nPerimeter: "+getPerimeter()+"\nColor: "+color+"\nFilled: "+filledcolor+"\n\n";
+	return str;
 	}
 
 }

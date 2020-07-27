@@ -1,4 +1,4 @@
-package Bank;
+package test.Bank;
 
 public interface BankFunction {
  public void increase(double amt);

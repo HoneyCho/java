@@ -1,4 +1,4 @@
-package Bank;
+package test.Bank;
 
 public class ChildBank extends Bank implements BankFunction{
 	public ChildBank(double amt) {

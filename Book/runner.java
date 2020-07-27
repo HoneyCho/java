@@ -4,7 +4,6 @@ public class runner{
 
 	public static void main(String[] args) {
 author a=new author("Jue"," jue@email.com","F");
-
 author b=new author("Mg Mg"," mgmg@email.com","M");
 author c=new author("Kyaw"," kyaw@email.com","M");
 
@@ -16,6 +15,8 @@ book b3=new book("JS",c,6000);
 b1.showbook();
 b2.showbook();
 b3.showbook();
+
+
 
 }
 

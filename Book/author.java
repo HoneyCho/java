@@ -4,6 +4,13 @@ public class author {
 String name;
 String email;
 String gender;
+public author(String name, String email,String gender) {
+	super();
+	this.name = name;
+	this.email = email;
+	this.gender = gender;
+}
+
 public String getName() {
 	return name;
 	
@@ -24,11 +31,12 @@ public String getGender() {
 public void setgender(String gender) {
 	this.gender = gender;
 }
-public author(String name, String email,String gender) {
-	super();
-	this.name = name;
-	this.email = email;
-	this.gender = gender;
+public String toString() {
+	String str= "Author name: " + getName() + "\nAuthor email : " + getEmail()
+	+ "\n Author gender : " + getGender();
+	return str;
+	
 }
+
 }
 
